@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Insert URL</title>
+	<meta charset="utf-8">
+	<title>TEST</title>
+	<style type="text/css">
+		body{
+			width: 300px;
+			/*height: 300px;*/
+			background: #e3e3e3;
+		}
+		.center{
+			text-align: center;
+		}
+	</style>
 </head>
-<body style="    height: 100px;
-background: #cecece;
-margin: 0 auto;
-text-align: center;
-padding: 10px;
-">
-  <input type="text" id="urlInput" placeholder="Enter URL" style="    padding: 6px;
-  border: none;
-  margin-bottom: 15px;
-  background: white;
-  border-radius: 3px;
-  border-left: 6px solid red;">
-  <button id="insertButton" style="padding: 6px;
-  border: none;
-  margin-bottom: 15px;
-  background: #f2f2f2;
-  border-radius: 3px;
-  border-left: 6px solid #8097ff;
-  width: 107px;
-  margin: 0 auto;">GO</button>
+<body class="center">
+<h1>Get All Parameters</h1>
+<button id="scrapeEmails" style="color: #e3e3e3; background: #c991ff;">Get All Parameters  📩</button>
 
-  <a href="https://x.com/0xhussein" style="    padding: 10px;
-  display: block;
-  color: #3F51B5;">0xHussein</a>
-  <script src="popup.js"></script>
+<!-- <button id="openAllEmails" style="color: #e3e3e3; background: #63c991;"> Open All Emails in New Tabs</button> -->
+
+
+<ul id="parameterslist"></ul>
+
+<script src="popup.js"></script>
 </body>
 </html>
