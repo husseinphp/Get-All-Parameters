@@ -1,0 +1,14 @@
+{
+  "name": "Get All Parameters",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab" , "scripting"],
+  "icons": {
+    "16": "in.png",
+    "48": "in.png",
+    "128": "in.png" 
+  }
+}
